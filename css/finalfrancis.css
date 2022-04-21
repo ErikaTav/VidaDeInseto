@@ -1,0 +1,21 @@
+@font-face {
+    font-family:"A_Bug_s_Life-Debugged";
+    src: url("../fonts/a_bugs_life/A_Bug_s_Life-Debugged.ttf");
+}
+@font-face {
+    font-family:"A_Bug_s_Life" ;
+    src: url("../fonts/a_bugs_life/A_Bug_s_Life.ttf");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"A_Bug_s_Life";
+}
+body{
+    background-image: url("../img/vida-de-inseto-garotas-geeks-02.gif");
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 100%;
+}

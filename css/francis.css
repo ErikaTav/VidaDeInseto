@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("../img/fundo-francis.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.boxBonecoFrancis{
+    text-align: center;
+    position:relative;
+    top:50px;
+    padding: 22px;
+    display: block;
+    width: 850px;
+    height: 300px;
+    background-color: #EDAE45;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow:  13px 13px 5px #000;
+    opacity: 0.8;
+}
+h1{
+    font-size: 28px;
+
+}
+.situacao{
+    font-size: 22px;
+}
+p:hover{
+    background-color: red;
+
+}

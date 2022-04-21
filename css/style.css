@@ -1,0 +1,60 @@
+@font-face {
+    font-family:"A_Bug_s_Life-Debugged";
+    src: url("../fonts/a_bugs_life/A_Bug_s_Life-Debugged.ttf");
+}
+@font-face {
+    font-family:"A_Bug_s_Life" ;
+    src: url("../fonts/a_bugs_life/A_Bug_s_Life.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"A_Bug_s_Life";
+}
+body{
+    background-image: url("../img/inicio_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+.principal .titulo{
+    color: white;
+    width: 50%;
+    padding: 10px;
+}
+.principal .titulo h1{
+    margin:20px 0px 0px 0px;
+    font-family:"A_Bug_s_Life" ;
+    font-size: 90px;
+    color:#EDAE45;
+    text-shadow: 8px 1px 2px #000;
+}
+.principal .titulo p{
+    font-size: 20px;
+    line-height: 24px;
+    color: #222;
+    font-family:"A_Bug_s_Life"
+}
+.principal .titulo button{
+    position:relative;
+    top: 380px;
+    left: 560px;
+    margin: 20px 0 ;
+    width: 172px;
+    border-radius: 10px;
+    padding: 8px 10px;
+    background-color: #EDAE45;
+    border: none;
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    box-shadow: 8px 6px 2px #000;
+}
+.principal .titulo button:hover{
+    background-color:#000;
+    color:#EDAE45;
+}
+
