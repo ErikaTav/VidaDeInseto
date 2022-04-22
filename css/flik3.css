@@ -1,0 +1,48 @@
+@font-face {
+    font-family:"A_Bug_s_Life-Debugged";
+    src: url("../fonts/a_bugs_life/A_Bug_s_Life-Debugged.ttf");
+}
+@font-face {
+    font-family:"A_Bug_s_Life" ;
+    src: url("../fonts/a_bugs_life/A_Bug_s_Life.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"A_Bug_s_Life";
+}
+body{
+    background-image: url("../img/img-trupe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+    
+    
+}
+.box-Boneco{
+    text-align: center;
+    position:relative;
+    top:50px;
+    padding: 22px;
+    display: block;
+    width: 850px;
+    height: 300px;
+    background-color: #EDAE45;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow:  13px 13px 5px #000;
+    opacity: 0.8;
+}
+h2{
+    font-size: 28px;
+
+}
+.situacao{
+    font-size: 22px;
+}
+p:hover{
+    background-color: red;
+}

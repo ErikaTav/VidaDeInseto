@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="stylesheet" href="../css/instrucoes.css">
+</head>
+
+<body>
+    <section class="box-introducao">
+        <div >
+            <h1>Como jogar</h1>
+            <p>Após ter saído numa jornada em busca de ajuda, a formiga Flik, encontrou uma trupe de circo cujo ele
+                acredita ser um grupo de justiceiros. A situação se passa no formigueiro que é a colônia de Flik. Para
+                dar início ao jogo, escolha um personagem </p>
+        </div>
+        <div class="box-personagens-container">
+            <h1>Escolha seu personagem</h1>
+            <div class="conteudo-personagem">
+                <div class="box-bonecos" onclick="proximaPagina('./francis.html')">
+                    <img class="img " src="../img/personagem-francis-seletor.jpg" alt="">
+                    <button>Francis</button>
+                </div>
+
+                <div class="box-bonecos" onclick="proximaPagina('./cigana.html')">
+                    <img class="img" src="../img/cigana-seletor.jpg" alt="">
+                    <button>Cigana</button>
+                </div>
+                <div class="box-bonecos" onclick="proximaPagina('./flik.html')">
+                    <img class="img" src="../img/Flik-seletor.jpg" alt="">
+                    <button>Flik</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="../javascript/index.js"></script>
+</body>
+
+</html>
