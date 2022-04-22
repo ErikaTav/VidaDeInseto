@@ -15,7 +15,7 @@
 body{
     background-image: url("../img/img_final.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     height: 100%;
     width: 100%;
 

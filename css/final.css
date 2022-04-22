@@ -12,7 +12,7 @@
     margin: 0;
     font-family:"A_Bug_s_Life";
 }
-.Final{
+body{
     background-image: url("../img/vida-de-inseto-garotas-geeks-02.gif");
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,4 +21,15 @@
     color: #EDAE45;
     font-size: 22px;
     text-align: center;
+}
+footer{
+    margin-top: 35%;
+    display: flex;
+    align-items: baseline;
+    background-color: #EDAE45;
+    color: black;
+}
+ul{
+    display: flex;
+    flex-direction: column;
 }
